@@ -1,0 +1,30 @@
+{
+  "name": "hexemanual",
+  "version": "1.0.0",
+  "description": "Everything whatever you need - A comprehensive documentation with internationalization support",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "dev": "docsify serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hexecoder/Hexemanual.git"
+  },
+  "keywords": [
+    "documentation",
+    "docsify",
+    "i18n",
+    "internationalization",
+    "multilingual"
+  ],
+  "author": "Hexecoder",
+  "license": "MIT",
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
